@@ -1,3 +1,6 @@
+'''Armazenando os dados capturados no BD e gravando o endereço da imagem com os dois números do telefone salvos em disco.
+Entra no link da loja para pegar os telefones da página interna. Evitando assim gravar lojas que não tem número de telefones'''
+
 import scrapy
 import requests
 import pyodbc

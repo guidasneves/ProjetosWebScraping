@@ -1,3 +1,16 @@
+'''
+Algoritmo para buscar links em que conste o nome de um dos seis primeiros times da tabela do brasileirão 2017.
+Tabela de 22/08/2027. Iniciando no site globoesporte.globo.com
+'''
+
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import re # Biblioteca para Expressões Regulares
+
+paginas = set()
+paginas_invalidas = set()
+nova_pagina = ''
+
 # Irá receber a URL inicial
 # Vai encontrar um link com algumas das palavras definidas na expressão regular
 # Guardando esse link no set paginas

@@ -47,7 +47,7 @@ if __name__ == '__main__':
         if deputado == '0':
             break
         else:
-            despesas('ABEL MESQUITA JR.')
+            despesas(deputado)
         '''elif deputado not in nomes:
             nao_encontrado = input('Aperte qualquer tecla para ver os deputados disponíveis: ')
             for i in nomes:

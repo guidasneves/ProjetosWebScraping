@@ -1,3 +1,9 @@
+'''
+Criando uma aplicação para navegar em artigos do Wikipedia,
+buscando os links do artigo e armazenando as URLs, títulos e conteúdo das páginas percorridas.
+Criamos a tabela que irá armazenar o conteúdo do Scraping no MySQL.
+'''
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import random

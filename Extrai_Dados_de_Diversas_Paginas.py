@@ -1,3 +1,10 @@
+'''
+Implementando um spider para seguir recursivamente para as próximas páginas,
+extraindo os dados das mesmas (o sistema executará até a última página).
+Depois de extrair os dados, o método parser procura o link para a próxima página, cria uma URL completa usando o método urljoin().
+Uma vez que os links podem ser relativos e produz uma nova solicitação para a próxima página.
+'''
+
 import scrapy
 
 class QuotesSpider(scrapy.Spider):
